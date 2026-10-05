@@ -1,24 +1,69 @@
 # Kelley Portfolio Site
 
-A responsive, accessible one-page portfolio concept for Kelley Poturalski.
+Kelley Poturalski's UX leadership portfolio, built with React and Vite and
+hosted on Vercel at [kelleypoturalski.com](https://www.kelleypoturalski.com).
 
-## Files
-- index.html
-- styles.css
-- script.js
-- login.html
+## Editing the words on the site
+
+Every word, link and list lives in Markdown files in `src/content/`. You never
+need to open a component to change the text.
+
+| File | What it controls |
+| --- | --- |
+| `site.md` | Name, email, LinkedIn, header links, footer motto |
+| `hero.md` | Headline, intro, buttons and the tilted manifesto card |
+| `stats.md` | The four highlights under the hero |
+| `work.md` | Heading and intro for Selected work |
+| `work/*.md` | One file per case study, shown in file-name order |
+| `leadership.md` | Principles, the large quote and the paragraphs beside it |
+| `capabilities.md` | The six "What I bring" boxes |
+| `about.md` | The About section |
+| `contact.md` | The closing call to action |
+
+Each file has settings between the `---` lines (titles, links, lists) and
+plain paragraphs below them. A few tips:
+
+- Words between `*asterisks*` show in italics or the accent color.
+- Leave a blank line between paragraphs.
+- If a setting's text contains a colon followed by a space, wrap the text in
+  `"quotes"`.
+- To add a case study, copy a file in `work/`, rename it (for example
+  `05-new-project.md`) and edit it. `featured: true` makes a card full width.
+
+Open a pull request with your change; Vercel posts a preview link so you can
+check it before merging to `main`, which publishes the site.
 
 ## Run locally
-Open `index.html` in a browser, or serve this folder with any static web server.
 
-## Before publishing
-1. Replace `hello@kelleyp.co` with the preferred email address.
-2. Connect the login form to real authentication before protecting confidential case-study content.
-3. Replace/add project imagery as desired.
+Requires Node.js 20 or newer.
+
+```
+npm install
+npm run dev       # preview at http://localhost:5173 with live reload
+npm run build     # production build into dist/
+```
+
+## How it's put together
+
+- `index.html` is the page shell: title, meta description and fonts.
+- `src/App.jsx` stacks the header, the seven sections and the footer.
+- `src/components/` holds one component per section, plus the shared
+  `SectionHeading`, `Button` and `CaseCard`.
+- `src/content.js` loads the Markdown files; `vite.config.js` reads them at
+  build time.
+- `public/` is served as-is: `styles.css` (shared by every page),
+  `login.html` and its `script.js`.
+
+## Still to do
+
+1. Confirm `hello@kelleyp.co` is the right email (set in `src/content/site.md`).
+2. Connect the login form to real authentication before protecting
+   confidential case-study content.
+3. Add project imagery.
 4. Connect analytics (Plausible, Fathom, GA4, etc.).
-5. Host on Netlify, Vercel, GitHub Pages, Cloudflare Pages, or your existing provider.
 
 ## Design direction
+
 Warm editorial / modern craft:
 - Soft warm neutral background
 - Serif display type + clean sans-serif body
