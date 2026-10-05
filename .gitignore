@@ -1,0 +1,11 @@
+# OS
+.DS_Store
+
+# Dependencies and builds
+node_modules/
+dist/
+build/
+
+# Environment and local tooling
+.env*
+.vercel
