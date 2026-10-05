@@ -89,7 +89,7 @@ h1 em{color:var(--accent);font-weight:500}
   line-height:1.25;
   margin:.2rem 0;
 }
-.manifesto span{color:var(--accent)}
+.manifesto span,.manifesto em{color:var(--accent);font-style:normal}
 .proof-bar{
   border-top:1px solid var(--line);border-bottom:1px solid var(--line);
   display:grid;grid-template-columns:repeat(4,1fr);
