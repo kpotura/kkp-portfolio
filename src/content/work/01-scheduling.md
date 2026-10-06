@@ -2,7 +2,7 @@
 category: Enterprise experience strategy
 title: Unifying fragmented scheduling experiences
 # A featured card spans the full width of the grid.
-featured: true
+featured: false
 link: login.html
 highlights:
   - Cross-product workflow mapping
