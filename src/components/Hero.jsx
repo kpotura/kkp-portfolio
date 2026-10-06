@@ -3,7 +3,7 @@ import Button from './Button.jsx';
 
 export default function Hero({ hero }) {
   return (
-    <section className="hero" id="top">
+    <section className={hero.show_manifesto ? 'hero' : 'hero hero-solo'} id="top">
       <div className="hero-copy">
         <p className="eyebrow">{hero.eyebrow}</p>
         <h1 dangerouslySetInnerHTML={inline(hero.headline)} />
@@ -15,11 +15,13 @@ export default function Hero({ hero }) {
         </div>
       </div>
 
-      <aside className="manifesto" aria-label="Design and leadership principles">
-        {hero.manifesto.map((line) => (
-          <p key={line} dangerouslySetInnerHTML={inline(line)} />
-        ))}
-      </aside>
+      {hero.show_manifesto && (
+        <aside className="manifesto" aria-label="Design and leadership principles">
+          {hero.manifesto.map((line) => (
+            <p key={line} dangerouslySetInnerHTML={inline(line)} />
+          ))}
+        </aside>
+      )}
     </section>
   );
 }

@@ -47,6 +47,7 @@ nav a{text-decoration:none;font-size:.94rem}
   gap:72px;
   align-items:end;
 }
+.hero-solo{grid-template-columns:1fr}
 .eyebrow{
   text-transform:uppercase;
   letter-spacing:.16em;
