@@ -14,7 +14,3 @@ align people, and then helping the team ship.
 I’m energized by smart, funny, friends and ambiguous problems. I
 believe the best leaders create clarity, make room for others to
 contribute, and keep learning themselves.
-
-Outside work, I’m usually making something, biking somewhere, reading
-with the Denver UX community, or turning a half-formed idea into a
-project before anyone has had the chance to stop me.
