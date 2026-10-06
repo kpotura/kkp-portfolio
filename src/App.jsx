@@ -17,7 +17,9 @@ export default function App() {
       <SiteHeader site={site} />
       <main id="main">
         <Hero hero={content.hero} />
-        <ProofBar stats={content.stats} />
+        {content.showStats
+          ? <ProofBar stats={content.stats} />
+          : <hr className="hero-rule" />}
         <Work work={content.work} cases={content.cases} />
         <Leadership leadership={content.leadership} />
         <Capabilities capabilities={content.capabilities} />

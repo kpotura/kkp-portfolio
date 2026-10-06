@@ -25,6 +25,7 @@ export default {
   site,
   hero: { ...hero, intro: hero.body },
   stats: section('stats').stats,
+  showStats: section('stats').show_stats,
   work: { eyebrow: work.eyebrow, heading: work.heading, intro: work.body },
   cases,
   leadership: { ...leadership, details: leadership.body },

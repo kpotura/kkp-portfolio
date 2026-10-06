@@ -102,6 +102,10 @@ h1 em{color:var(--accent);font-weight:500}
 .proof-bar strong,.proof-bar span{display:block}
 .proof-bar strong{font-size:1.05rem}
 .proof-bar span{font-size:.86rem;color:var(--muted);margin-top:4px}
+.hero-rule{
+  border:0;border-top:1px solid var(--ink);
+  width:min(calc(100% - 40px),var(--max));margin:0 auto;
+}
 .section{
   width:min(calc(100% - 40px),var(--max));
   margin:0 auto;
