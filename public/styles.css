@@ -4,7 +4,7 @@
   --ink:#20211f;
   --muted:#66645e;
   --line:#d8d1c6;
-  --accent:#E81111;
+  --accent:#FF383C;
   --accent-dark:#7d382d;
   --sage:#7c8975;
   --max:1200px;
@@ -291,7 +291,7 @@ footer{
 }
 
 .login-form input:focus{
-  outline:3px solid rgba(232,17,17,.18);
+  outline:3px solid rgba(255,56,60,.18);
   border-color:var(--accent);
 }
 
