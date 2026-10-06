@@ -16,14 +16,16 @@ export default function Leadership({ leadership }) {
         ))}
       </div>
 
-      <div className="leadership-callout">
-        <p className="quote">{`“${leadership.quote}”`}</p>
-        <div className="leadership-details">
-          {paragraphs(leadership.details).map((text) => (
-            <p key={text} dangerouslySetInnerHTML={inline(text)} />
-          ))}
+      {leadership.show_callout && (
+        <div className="leadership-callout">
+          <p className="quote">{`“${leadership.quote}”`}</p>
+          <div className="leadership-details">
+            {paragraphs(leadership.details).map((text) => (
+              <p key={text} dangerouslySetInnerHTML={inline(text)} />
+            ))}
+          </div>
         </div>
-      </div>
+      )}
     </section>
   );
 }
