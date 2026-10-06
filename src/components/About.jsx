@@ -14,7 +14,7 @@ export default function About({ about }) {
             {photos.map((photo, i) => (
               <figure key={photo.src || i} className="photo-tile">
                 {photo.src
-                  ? <img src={photo.src} alt={photo.alt || ''} loading="lazy" />
+                  ? <img src={photo.src} alt={photo.alt || ''} loading="lazy" style={photo.position ? { objectPosition: photo.position } : undefined} />
                   : <div className="photo-placeholder">Photo {i + 1}</div>}
                 {photo.caption && <figcaption>{photo.caption}</figcaption>}
               </figure>
