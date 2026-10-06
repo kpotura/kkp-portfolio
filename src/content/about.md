@@ -1,6 +1,28 @@
 ---
 eyebrow: About Kelley
 heading: I’m a designer who became a leader without wanting to stop designing.
+
+# The photo grid replaces the heading above. Put image files in
+# public/photos/ and list them here, five fit the layout best: the
+# 1st is wide, the 3rd is tall. Leave src empty to show a placeholder,
+# or delete the whole photos list to bring the heading back.
+# The caption shows when someone hovers over the photo.
+photos:
+  - src:
+    alt:
+    caption:
+  - src:
+    alt:
+    caption:
+  - src:
+    alt:
+    caption:
+  - src:
+    alt:
+    caption:
+  - src:
+    alt:
+    caption:
 ---
 
 I’ve led designers across enterprise products, consumer experiences,
