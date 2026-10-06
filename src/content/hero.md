@@ -10,6 +10,8 @@ buttons:
     link: "#leadership"
     style: secondary
 # The tilted card beside the headline, one line each.
+# Set show_manifesto to true to bring the card back.
+show_manifesto: false
 manifesto:
   - Choose kindness.
   - Stay curious.
