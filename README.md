@@ -56,7 +56,7 @@ npm run build     # production build into dist/
 
 ## Still to do
 
-1. Confirm `hello@kelleyp.co` is the right email (set in `src/content/site.md`).
+1. The contact email is kkpdenver@gmail.com (set in `src/content/site.md`).
 2. Connect the login form to real authentication before protecting
    confidential case-study content.
 3. Add project imagery.

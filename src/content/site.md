@@ -2,7 +2,7 @@
 # Used across the whole page: header, footer and contact buttons.
 name: Kelley Poturalski
 initials: KP
-email: hello@kelleyp.co
+email: kkpdenver@gmail.com
 linkedin: https://www.linkedin.com/in/kpotura
 
 # Header links. Each link points to a section further down the page.

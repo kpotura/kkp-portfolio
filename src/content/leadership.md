@@ -19,6 +19,9 @@ principles:
       research, prototypes, and measurable outcomes to turn ideas into
       decisions teams can act on.
 
+# The large quote and the paragraphs below it. Set show_callout to true
+# to bring them back.
+show_callout: false
 # The large quote. Quotation marks are added for you.
 quote: Bring structure to messy problems, make the invisible visible,
   and help the team move.
