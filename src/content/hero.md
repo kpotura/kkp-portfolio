@@ -1,7 +1,7 @@
 ---
 eyebrow: UX + Product Design Leadership · Denver
 # Words between *asterisks* show in the accent color.
-headline: I turn *complex products* into experiences that make sense.
+headline: I help teams turn *complex products* into experiences that make sense.
 buttons:
   - label: See selected work
     link: "#work"
