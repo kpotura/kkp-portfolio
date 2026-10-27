@@ -16,7 +16,7 @@ nav:
 cta: Let’s talk
 
 # Shown in the footer, joined with dots. Set show_motto to true to
-# bring it back (login.html has its own copy, commented out).
+# bring it back (on the login page too).
 show_motto: false
 motto:
   - Choose kindness

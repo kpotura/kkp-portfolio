@@ -19,6 +19,7 @@ need to open a component to change the text.
 | `capabilities.md` | The six "What I bring" boxes |
 | `about.md` | The About section |
 | `contact.md` | The closing call to action |
+| `login.md` | The password page (`login.html`) |
 
 Each file has settings between the `---` lines (titles, links, lists) and
 plain paragraphs below them. A few tips:
@@ -51,8 +52,13 @@ npm run build     # production build into dist/
   `SectionHeading`, `Button` and `CaseCard`.
 - `src/content.js` loads the Markdown files; `vite.config.js` reads them at
   build time.
-- `public/` is served as-is: `styles.css` (shared by every page),
-  `login.html` and its `script.js`.
+- `login.html` is the password page, rendered by `src/login.jsx` and
+  `src/components/LoginPage.jsx`. It is built with
+  [shadcn/ui](https://ui.shadcn.com) components (`src/components/ui/`) on
+  Tailwind CSS; `src/login.css` points the shadcn colours at the site's own
+  tokens. Tailwind only loads on this page, so the portfolio is untouched.
+  Add more shadcn components with `npx shadcn@latest add <name>`.
+- `public/` is served as-is: `styles.css` (shared by every page) and photos.
 
 ## Still to do
 

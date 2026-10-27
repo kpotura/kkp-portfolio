@@ -14,6 +14,7 @@ const site = section('site');
 const hero = section('hero');
 const work = section('work');
 const leadership = section('leadership');
+const login = section('login');
 
 const cases = Object.keys(files)
   .filter((path) => path.startsWith('./content/work/'))
@@ -32,4 +33,5 @@ export default {
   capabilities: section('capabilities'),
   about: section('about'),
   contact: section('contact'),
+  login: { ...login, intro: login.body },
 };

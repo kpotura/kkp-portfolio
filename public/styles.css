@@ -278,15 +278,6 @@ footer{
   padding:72px 0 110px;
 }
 
-.login-card{
-  width:100%;
-  background:var(--paper);
-  border:1px solid var(--line);
-  border-radius:var(--radius);
-  padding:40px;
-  box-shadow:0 16px 50px rgba(36,30,23,.06);
-}
-
 .login-card h1{
   font-size:clamp(2.7rem,7vw,4.6rem);
   margin-bottom:18px;
@@ -295,40 +286,6 @@ footer{
 .login-card .lede{
   font-size:1rem;
   margin-bottom:30px;
-}
-
-.login-form{
-  display:grid;
-  gap:18px;
-}
-
-.login-form label{
-  display:grid;
-  gap:8px;
-  font-size:.9rem;
-  font-weight:700;
-}
-
-.login-form input{
-  width:100%;
-  min-height:48px;
-  border:1px solid var(--line);
-  border-radius:12px;
-  background:#fff;
-  color:var(--ink);
-  font:inherit;
-  padding:0 14px;
-}
-
-.login-form input:focus{
-  outline:3px solid rgba(255,56,60,.18);
-  border-color:var(--accent);
-}
-
-.login-form .button{
-  border:0;
-  cursor:pointer;
-  margin-top:4px;
 }
 
 .login-note{
