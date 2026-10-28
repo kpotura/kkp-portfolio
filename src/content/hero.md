@@ -19,6 +19,5 @@ manifesto:
   - Build with *creativity + logic.*
 ---
 
-I’m Kelley Poturalski, a UX and product design leader who combines
-creativity, logic, research, and systems thinking to help teams make
-better products—and better decisions.
+I’m Kelley Poturalski, a UX and product design leader who leads from
+the front to help teams make better products—and better decisions.
