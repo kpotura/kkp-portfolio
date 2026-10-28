@@ -25,7 +25,7 @@ export default function LoginPage({ login, site }) {
           <CardHeader className="block px-0">
             <p className="eyebrow">{login.eyebrow}</p>
             <CardTitle>
-              <h1 id="login-title">{login.heading}</h1>
+              <h3 id="login-title">{login.heading}</h3>
             </CardTitle>
             <CardDescription className="lede leading-[1.6]">{login.intro}</CardDescription>
           </CardHeader>
