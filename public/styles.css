@@ -208,6 +208,10 @@ footer{
   display:flex;justify-content:space-between;gap:20px;
   color:var(--muted);font-size:.88rem
 }
+.footer-social{display:flex;gap:14px;margin:0 0 0 auto;padding:0;list-style:none}
+.footer-social a{display:block;color:var(--muted);transition:color .2s ease}
+.footer-social a:hover,.footer-social a:focus-visible{color:var(--ink)}
+.footer-social svg{display:block;width:20px;height:20px;fill:currentColor}
 @media (max-width:900px){
   .hero{grid-template-columns:1fr;gap:36px}
   .manifesto{max-width:520px}
@@ -241,6 +245,7 @@ footer{
   .photo-tile:nth-child(n){grid-area:auto}
   .photo-tile figcaption{transform:none}
   footer{flex-direction:column}
+  .footer-social{margin-left:0}
 }
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.photo-tile img,.photo-tile figcaption{transition:none}}
 
