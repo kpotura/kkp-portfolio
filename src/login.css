@@ -1,0 +1,36 @@
+/* Tailwind and the shadcn/ui theme, loaded only by login.html.
+   Tailwind sits in cascade layers, so the unlayered rules in
+   public/styles.css (header, footer, type) still win over it. */
+@import "tailwindcss";
+
+/* shadcn/ui colour names, pointed at the site's own tokens in styles.css. */
+@theme inline {
+  --font-sans: "DM Sans", system-ui, sans-serif;
+  --color-background: #fff;
+  --color-foreground: var(--ink);
+  --color-card: var(--paper);
+  --color-card-foreground: var(--ink);
+  --color-primary: var(--ink);
+  --color-primary-foreground: #fff;
+  --color-secondary: var(--bg);
+  --color-secondary-foreground: var(--ink);
+  --color-muted: var(--bg);
+  --color-muted-foreground: var(--muted);
+  --color-accent: var(--bg);
+  --color-accent-foreground: var(--ink);
+  --color-destructive: var(--accent-dark);
+  --color-border: var(--line);
+  --color-input: var(--line);
+  --color-ring: var(--accent);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  /* Tailwind's reset drops the browser's paragraph spacing, which the
+     shared footer relies on. */
+  p {
+    margin-bottom: 1em;
+  }
+}

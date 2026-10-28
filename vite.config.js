@@ -1,5 +1,7 @@
+import { fileURLToPath } from 'node:url';
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
+import tailwindcss from '@tailwindcss/vite';
 import frontMatter from 'front-matter';
 
 // Turns each .md file in src/content/ into { attributes, body } when the
@@ -12,6 +14,17 @@ const markdownContent = () => ({
   },
 });
 
+const page = (file) => fileURLToPath(new URL(file, import.meta.url));
+
 export default defineConfig({
-  plugins: [markdownContent(), react()],
+  plugins: [markdownContent(), react(), tailwindcss()],
+  resolve: {
+    alias: { '@': page('./src') },
+  },
+  build: {
+    // Two pages: the portfolio and the password page (built with shadcn/ui).
+    rollupOptions: {
+      input: { index: page('./index.html'), login: page('./login.html') },
+    },
+  },
 });
