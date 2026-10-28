@@ -1,5 +1,5 @@
 :root{
-  --bg:#f3efe9;
+  /* --bg:#f3efe9;
   --paper:#fffdf9;
   --ink:#20211f;
   --muted:#66645e;
@@ -8,7 +8,19 @@
   --accent-dark:#7d382d;
   --sage:#7c8975;
   --max:1200px;
+  --radius:24px; */
+
+  --bg:#F7F3EC;
+  --paper:#ffffff;
+  --ink:#20211f;
+  --muted:#66645e;
+  --line:#d8d1c6;
+  --accent:#E81111;
+  --accent-dark:#7d382d;
+  --sage:#59544E;
+  --max:1200px;
   --radius:24px;
+
 }
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
