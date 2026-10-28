@@ -5,9 +5,10 @@ heading: Good design happens when people can do their best thinking.
 # Numbered 01, 02, ... automatically, in this order.
 # Text with a colon in it needs "quotes" around it.
 principles:
-  - title: Choose kindness
-    text: Direct feedback and high standards work better when people know
-      they’re respected. I try to make candor useful, not theatrical.
+  - title: Continuous Improvement
+    text: Continuous improvement is where designers add value—using research,
+      feedback, and critical thinking to turn AI-generated products into
+      meaningful user experiences.
   - title: Stay curious
     text: Ask what changed. Ask what we’re assuming. Ask what the customer is
       doing—not just what they say they want.
