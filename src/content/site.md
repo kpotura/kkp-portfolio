@@ -3,7 +3,10 @@
 name: Kelley Poturalski
 initials: KP
 email: kkpdenver@gmail.com
+# LinkedIn and Instagram also show as icons on the right of the footer.
+# Leave one blank to hide its icon.
 linkedin: https://www.linkedin.com/in/kpotura
+instagram: https://www.instagram.com/kpotura
 # Shown after your name in the footer, in parentheses. Leave blank to hide it.
 location: Denver, CO
 
