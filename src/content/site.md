@@ -13,7 +13,7 @@ nav:
     link: "#leadership"
   - label: About
     link: "#about"
-cta: Let’s talk
+cta: Let’s connect
 
 # Shown in the footer, joined with dots. Set show_motto to true to
 # bring it back (login.html has its own copy, commented out).
