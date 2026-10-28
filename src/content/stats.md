@@ -1,6 +1,6 @@
 ---
-# Set show_stats to true to bring the strip back.
-show_stats: false
+# Set show_stats to false to hide the strip.
+show_stats: true
 # The strip of highlights under the hero. Four fit best on one row.
 stats:
   - figure: 15+ years
