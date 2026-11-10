@@ -66,7 +66,9 @@ npm run build     # production build into dist/
 2. Connect the login form to real authentication before protecting
    confidential case-study content.
 3. Add project imagery.
-4. Connect analytics (Plausible, Fathom, GA4, etc.).
+4. Page views are counted with Vercel Web Analytics (enable it in the
+   Vercel project's Analytics tab). Click tracking needs Vercel Pro or
+   another tool such as Umami.
 
 ## Design direction
 
