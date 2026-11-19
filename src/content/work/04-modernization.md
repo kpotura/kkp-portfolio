@@ -1,7 +1,8 @@
 ---
 category: Platform modernization
 title: Modernizing without breaking what works
-link: login.html
+# The "View details" button is hidden. Remove the # below to show it again.
+# link: login.html
 highlights:
   - Legacy workflow redesign
   - Accessibility & WCAG

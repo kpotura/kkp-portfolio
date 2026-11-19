@@ -1,7 +1,8 @@
 ---
 category: Design systems
 title: Building the system before the rebrand
-link: login.html
+# The "View details" button is hidden. Remove the # below to show it again.
+# link: login.html
 highlights:
   - Shared design tokens
   - Designer + engineer contribution model
