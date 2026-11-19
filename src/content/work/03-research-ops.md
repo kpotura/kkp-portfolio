@@ -1,7 +1,8 @@
 ---
 category: Research operations
 title: Making research part of delivery
-link: login.html
+# The "View details" button is hidden. Remove the # below to show it again.
+# link: login.html
 highlights:
   - Unmoderated usability testing
   - Research democratization

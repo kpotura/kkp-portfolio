@@ -3,7 +3,8 @@ category: Enterprise experience strategy
 title: Unifying fragmented scheduling experiences
 # A featured card spans the full width of the grid.
 featured: false
-link: login.html
+# The "View details" button is hidden. Remove the # below to show it again.
+# link: login.html
 highlights:
   - Cross-product workflow mapping
   - AI-assisted concept exploration
